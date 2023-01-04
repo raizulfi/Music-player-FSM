@@ -34,13 +34,21 @@ we can construct a truth table from the state diagram:
 We're able to to construct Karnaugh map for each of the states and outputs fromm the truth table.
 from the Kmaps, we can also derive simpile Boolean expressions.
 (the **'** represent NOT)
-s0:
+
+**s0:**
+
 ![image](https://user-images.githubusercontent.com/114371959/210587166-1a27036b-507e-40bd-935d-14dcba2087a1.png)
+
 s0 = S'
-s1:
+
+**s1:**
+
 ![image](https://user-images.githubusercontent.com/114371959/210587332-9f106c2b-94ce-4b11-9e82-198e652ecbc8.png)
+
 s1 = PSs0'
-o0:
+
+**o0:**
 ![image](https://user-images.githubusercontent.com/114371959/210587495-80637f47-3c78-4b8c-82ef-f3ebeefaeead.png)
-O = Ss0 + PS
+
+o0 = Ss0 + PS
 
