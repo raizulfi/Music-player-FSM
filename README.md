@@ -48,6 +48,7 @@ s0 = S'
 s1 = PSs0'
 
 **o0:**
+
 ![image](https://user-images.githubusercontent.com/114371959/210587495-80637f47-3c78-4b8c-82ef-f3ebeefaeead.png)
 
 o0 = Ss0 + PS
