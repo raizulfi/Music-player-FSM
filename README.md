@@ -15,6 +15,7 @@ A music player FSM (finite state machine) is a system that controls the behavior
 
 ## Inputs
 the system contains two input which is play/pause button repsented with: **P** 
+
 and a Stop button repsented with: **S**
 
 ## State diagram
