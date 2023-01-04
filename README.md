@@ -1,9 +1,6 @@
 # Music Player system with Finite State Machine
 
 in this respiporitary it will contain a music player system with finite state machine application. This includes C languange implentation.
-
-## Testing main program
-
 A music player FSM (finite state machine) is a system that controls the behavior of a music player by transitioning between different states based on inputs and outputs.
 
 ## States
