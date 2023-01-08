@@ -21,12 +21,12 @@ and a Stop button repsented with: **S**
 ## State diagram
 below is the state diagram for the music player fsm:
 
-![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/114371959/211205623-594dd547-4518-40a9-ae37-0f0261646d9c.png)
+![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/114371959/211205623-594dd547-4518-40a9-ae37-0f0261646d9c.png width=100)
 
 ## Truth Table
 we can construct a truth table from the state diagram:
 
-![image](https://user-images.githubusercontent.com/114371959/210586156-4bb64dce-6f8d-4546-91e9-7674de9fa159.png)
+![image](https://user-images.githubusercontent.com/114371959/210586156-4bb64dce-6f8d-4546-91e9-7674de9fa159.png) 
 
 ## Karnaugh map
 We're able to to construct Karnaugh map for each of the states and outputs fromm the truth table.
