@@ -21,7 +21,7 @@ and a Stop button repsented with: **S**
 ## State diagram
 below is the state diagram for the music player fsm:
 
-![Untitled Diagram drawio (2)](https://user-images.githubusercontent.com/114371959/210585758-a24f1053-cb6f-4a90-9c92-c3747b98a764.png)
+![Untitled Diagram drawio (3)](https://user-images.githubusercontent.com/114371959/211205623-594dd547-4518-40a9-ae37-0f0261646d9c.png)
 
 ## Truth Table
 we can construct a truth table from the state diagram:
