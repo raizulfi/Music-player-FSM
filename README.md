@@ -41,4 +41,4 @@ from the Kmaps, we can also derive simpile Boolean expressions.
 
 below you'd see a test run of the code:
 
-![main c - music player fsm - Visual Studio Code 2023-01-11 19-25-55](https://user-images.githubusercontent.com/114371959/211808316-75b50ddd-0f28-4c7e-87ce-85035f72d43e.gif)
+![main c - music player fsm - Visual Studio Code 2023-01-11 19-25-55](https://user-images.githubusercontent.com/114371959/211808604-a168b146-da32-44c9-85a8-5541ecd9ebad.gif)
