@@ -14,9 +14,10 @@ A music player FSM (finite state machine) is a system that controls the behavior
 -   **Stop**: `00`
 
 ## Inputs
-the system contains two input which is play/pause button repsented with: **P** = 1
+the music player fsm accepts two 1-bit inputs:
 
-and a Stop button repsented with: **S** = 0
+**1** : PLAY AND PAUSE
+**0** : STOP
 
 ## State diagram
 below is the state diagram for the music player fsm:
@@ -26,28 +27,12 @@ below is the state diagram for the music player fsm:
 ## Truth Table
 we can construct a truth table from the state diagram:
 
-![image](https://user-images.githubusercontent.com/114371959/210586156-4bb64dce-6f8d-4546-91e9-7674de9fa159.png) 
+![image](https://user-images.githubusercontent.com/114371959/211804778-1e6fe6ee-d050-4249-9c8e-9194372e9cb2.png)
 
 ## Karnaugh map
 We're able to to construct Karnaugh map for each of the states and outputs fromm the truth table.
 from the Kmaps, we can also derive simpile Boolean expressions.
-(the **'** represent NOT)
 
-**s0:**
+![image](https://user-images.githubusercontent.com/114371959/211805080-d7373eed-d066-4d57-97fa-35a981f2c7ca.png)
 
-![image](https://user-images.githubusercontent.com/114371959/210587166-1a27036b-507e-40bd-935d-14dcba2087a1.png)
-
-s0 = S'
-
-**s1:**
-
-![image](https://user-images.githubusercontent.com/114371959/210587332-9f106c2b-94ce-4b11-9e82-198e652ecbc8.png)
-
-s1 = PSs0'
-
-**o0:**
-
-![image](https://user-images.githubusercontent.com/114371959/210587495-80637f47-3c78-4b8c-82ef-f3ebeefaeead.png)
-
-o0 = Ss0 + PS
 
