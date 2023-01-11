@@ -9,9 +9,9 @@ A music player FSM (finite state machine) is a system that controls the behavior
 2.  **Playing**: The music player is currently playing a song.
 3.  **Paused**: The music player is paused and not playing any music, but the current song will resume from where it left off when the player is resumed.
 
--   **Play**: `00`
+-   **Play**: `10`
 -   **Pause**: `01`
--   **Stop**: `10`
+-   **Stop**: `00`
 
 ## Inputs
 the system contains two input which is play/pause button repsented with: **P** = 1
@@ -21,7 +21,7 @@ and a Stop button repsented with: **S** = 0
 ## State diagram
 below is the state diagram for the music player fsm:
 
-![Untitled Diagram drawio (4)](https://user-images.githubusercontent.com/114371959/211785856-96dd98f5-6976-4866-b689-94d0c3347443.png)
+![Untitled Diagram drawio (5)](https://user-images.githubusercontent.com/114371959/211787458-6d725771-a583-455e-9ebf-14872f36961c.png)
 
 ## Truth Table
 we can construct a truth table from the state diagram:
