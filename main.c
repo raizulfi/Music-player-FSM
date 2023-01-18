@@ -45,7 +45,10 @@ void pause(){
 int main(void) {
     int s0=0, s1=0, S0=0, S1=0, b, o0=0;
     while (true) {
+        
+    system("clear");
         if (S0==0 && S1==0){
+            system("clear");
             stop();
             printf("Current state: %d%d\n", S0, S1);
             printf("Output: %d\n", o0);
@@ -54,7 +57,7 @@ int main(void) {
     }
     else if (S0==0 && S1==1)
     {
-         
+        system("clear"); 
         pause();
         printf("Current state: %d%d\n", S0, S1);
         printf("Output: %d\n", o0);
@@ -63,6 +66,7 @@ int main(void) {
     }
     else if (S0==1 && S1==0)
     {
+        system("clear");
         play();
         printf("Current state: %d%d\n", S0, S1);
         printf("Output: %d\n", o0);
